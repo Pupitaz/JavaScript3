@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="./css/calculadora.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<a href="./index.html">Inicio</a>
+			<a href="./calculador.html">Calculadora</a>
+			<a href="./carrusel.html">Carrusel</a>
+			<a href="./drag.html">Arrastra y suelta</a>
+		</nav>
+	</header>
+    
+    <div class="content-body">
+        <div class="content-calculator">
+
+            <div class="screen">
+                <input type="text" placeholder="0" disabled id="screen-result">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="7" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="8" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="9" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="+" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="4" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="5" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="6" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="-" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="1" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="2" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="3" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="*" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="0" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="/" onclick="getData(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-clean">
+                <input type="button" value="C" class="clean" onclick="clean()">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-equal">
+                <input type="button" value="=" class="equal" onclick="calculate()">
+            </div>
+
+        </div>
+    </div>
+    <br>
+	<footer>
+        <div class="contenedor-footer">
+           <div class="content-foo">
+                    <h5>Página creada por Adrián Chávez &copy;</h5>
+                    <br>
+                    <p>Derechos reservados</p>
+                    <p><a href="mailto:75684343@certus.edu.pe">75684343@certus.edu.pe</a></p>
+                    
+               </div>
+           <div class="content-foo">
+                    <h5>Página creada por José Celis &copy;</h5>
+                    <br>
+                    <p>Derechos reservados</p>
+                    <p><a href="mailto:hege@example.com">72683637@certus.edu.pe</a></p>
+               </div>
+           <div class="content-foo">
+                    <h5>Página creada por Mathías Vilca &copy;</h5>
+                    <br>
+                    <p>Derechos reservados</p>
+                    <p><a href="mailto:hege@example.com">72911450@certus.edu.pe</a></p>
+             </div>
+            </div>
+            <div class="red-social">
+                <a href="#" class="social-icon"></a>
+                <a href="#" class="social-icon"></a>
+                <a href="#" class="social-icon"></a>
+                <a href="#" class="social-icon"></a>
+            </div>
+
+          </footer>
+
+    <script src="./js/cal.js"></script>
+</body>
+</html>

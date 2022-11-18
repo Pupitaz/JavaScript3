@@ -1,0 +1,177 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	font-family: 'Open Sans';
+	display: grid;
+	min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+	background-color: #f8ef9b;
+}
+
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+#piezas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+}
+
+#puzzle {
+    border: 1px solid black;
+    width: 318px;
+    height: 495px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.pieza {
+    width: 106px;
+    height: 165px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.placeholder {
+    background-color: #F2F2F2;
+    outline: 1px solid #333;
+    width: 106px;
+    height: 165px;
+    transition: 1s;
+}
+
+.placeholder.hover {
+    background-color: orange;
+}
+
+.placeholder .pieza {
+    margin: 0;
+}
+
+#mensaje {
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+.ganaste {
+    background-color: #B3D67C;
+}
+
+.ganaste #mensaje {
+    display: block;
+}
+
+.ganaste .placeholder {
+    outline: none;
+}
+
+.ganaste #piezas {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+	background-color: lightcoral;
+	padding: 1em 0;
+	text-align: center;
+	
+}
+
+.footer{
+	background-color: lightcoral;
+	padding: 1em 0;
+	text-align: center;
+	
+	
+}
+
+footer{
+    background-color: rgb(8, 8, 8);
+    padding: 10px 10px 10px 10px;
+}
+
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h5{
+    color: rgb(255, 174, 231);
+}
+
+.content-foo p{
+    color: #fff;
+}
+.content-foo p a{
+    color: rgb(248, 169, 255);
+}
+.red-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border:1px solid #f2f2f2;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2504/2504903.png');
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+.social-icon:hover{
+    background-color: #121212;
+    filter:invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111463.png');
+
+}
+.social-icon:nth-of-type(3){
+    background-image: url('https://cdn-icons-png.flaticon.com/512/733/733579.png');
+    
+}
+.social-icon:nth-of-type(4){
+    background-image: url('https://cdn-icons-png.flaticon.com/512/3670/3670147.png');
+    
+}
